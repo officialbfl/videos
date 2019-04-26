@@ -1,0 +1,186 @@
+body {
+    margin: 0 auto;
+    font-family: arial;
+}
+.header {
+    margin: auto;
+    margin-top: 30px;
+    width: 860px;
+    border: 1px solid #351c00;
+    background-color: #4471fc;
+    padding: 20px;
+    text-align: center;
+    height: 215px;
+    font-size: 0px;
+}
+.background {
+    align-content: center;
+}
+h1 {
+    font-size: 30px;
+}
+.nav_bar {
+    margin: auto;
+    width: 860px;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid #000000;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    word-spacing: 40px;
+}
+.nav_bar a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav_bar a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.main_container {
+    margin: auto;
+    width: 860px;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-bottom: none;
+    border-top: none;
+    min-height: 500px;
+}
+h2 {
+    font-size: 18px;
+}
+a:hover, a:active {
+    color: #4d79ff;
+}
+a {
+  color: #1a53ff;
+}
+.a {
+  color: #ffffff
+}
+p {
+    font-size: 14px;
+}
+h6, h2 {
+     padding:1; margin:1; 
+}
+.closer { 
+    line-height: 15px;
+}
+.veryclose {
+    line-height: 1px;
+}
+.records {
+    line-height: 23px;
+}
+.notclose {
+    line-height: 27px;
+}
+.closee {
+    line-height: 5px;
+}
+.alignleft {
+    float: left;
+} 
+.alignright {
+    float: right;
+}
+table.blueTable {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.blueTable tbody td {
+  font-size: 13px;
+}
+table.blueTable tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.blueTable thead {
+  background: #1C6EA4;
+  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  border-bottom: 2px solid #444444;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #c0def2; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3391D0; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0066ff;
+}
+
+  table.blueTable thead th:first-child {
+    border-left: none;
+  }
+  
+  table.blueTable tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #D0E4F5;
+    background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+    background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+    background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+    border-top: 2px solid #444444;
+  }
+  table.blueTable tfoot td {
+    font-size: 14px;
+  }
+  table.blueTable tfoot .links {
+    text-align: right;
+  }
+  .topscorers {
+    background-color: #1C6EA4;
+    padding: 6px; /*add this if you want a bit of space around the text*/
+}
+.feedback {
+    background-color: #003366;
+    padding: 6px;
+}
+  table.blueTable tfoot .links a{
+    display: inline-block;
+    background: #1C6EA4;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
+.iframe {
+    border: 3px solid #000;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 50px;
+    border-radius: 30px;
+    margin: 10px;
+}
+.footer {
+    margin: auto;
+    width: 860px;
+    padding: 20px;
+    background: #000000;
+    border: 1px solid #000000;
+    border-top: 1px dashed #777777;
+    font-size: 14px;
+    margin-bottom: 30px;
+    height: 70px;
+}
